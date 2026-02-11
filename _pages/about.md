@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_random: true
-  image_circular: true # crops the image to make it circular
+  image_circular: true # crops the imahttps://aitrics-chris.github.io/ge to make it circular
   more_info: >
     <p>Machine Learning Researcher</p>
     at <a href="https://aitrics.com/en">AITRICS</a>
