@@ -1,3 +1,43 @@
+---
+layout: about
+title: about
+permalink: /
+subtitle: <b>Contact:</b> joohyunglee [dot] research [at] gmail [dot] com
+
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_random: true
+  image_circular: true # crops the image to make it circular
+  more_info: >
+    <p>Machine Learning Researcher</p>
+    <p>[AITRICS](https://aitrics.com/en/)</p>
+    # <a href="https://aitrics.com/en">AITRICS</a>
+    
+
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
+---
+
+I am a machine learning researcher at [AITRICS](https://aitrics.com/en), a healthcare startup in South Korea, where I get supervised by [Prof. Eunho Yang](https://mli.kaist.ac.kr/people/). I also work closely with [Prof. Juho Lee](https://juho-lee.github.io/).
+
+Before joining [AITRICS](https://aitrics.com/en), I have worked in [Korea Electronics Technology Institute (KETI)](https://www.keti.re.kr/eng/main/main.php), RCV Lab at [KAIST](https://www.kaist.ac.kr/en/) under supervision of [Prof. In So Kweon](http://rcv.kaist.ac.kr/) as a researcher. I also had a great time working at the [National Cancer Center](https://www.ncc.re.kr/indexEn.ncc) in South Korea.
+
+I have worked on geometric prior [[1](https://openreview.net/forum?id=TuQW7VPfXF)], acquisition-informed priors[[2](https://arxiv.org/pdf/2402.10595),[3](https://arxiv.org/abs/2209.05771)], temporal inductive biases[[4](https://arxiv.org/pdf/2305.02504), [5](https://arxiv.org/pdf/2210.16598)].
+
+Currently, I am working (or will work) on invariance–equivariance interference, empirical (infinitesimal) equivariance, and plausibility priors. In the end, I aim to build trustworthy learning system that robustly respect principled regularity constraints.
+
+<!-- 
 layout: page
 title: About
 permalink: /
@@ -30,4 +70,4 @@ My doctoral goal is to scale _structure-respecting learning_ beyond hand-specifi
 
 - **Discovering approximate symmetries from spatiotemporal signals.** Learn approximately equivariant transformation families from video and temporal coherence (e.g., motion-induced deformations), and enforce them with SER-style intermediate-layer constraints, leveraging small inter-frame transitions as a local equivariance signal without requiring analytic group actions.
 - **Diagnosing and mitigating invariance-equivariance interference via subspace decoupling.** I will study when and why invariant SSL and equivariant objectives compete, tracking effective-rank dynamics, layerwise gradient alignment, and latent-orbit organization under group actions, and develop subspace-structured objectives (e.g., null-space-projected equivariance) that preserve invariant embeddings while encoding transformation-sensitive variation.
-- **Semantic/physical constraints for trustworthy generative models.** Extract candidate constraints (anatomy, part consistency, numeracy, logical relations) from pretrained LLMs/VLMs, ground them with lightweight scoring modules, and enforce them with scalable alignment objectives.
+- **Semantic/physical constraints for trustworthy generative models.** Extract candidate constraints (anatomy, part consistency, numeracy, logical relations) from pretrained LLMs/VLMs, ground them with lightweight scoring modules, and enforce them with scalable alignment objectives. -->
