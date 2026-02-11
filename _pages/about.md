@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <b>Contact:</b> joohyunglee [dot] research [at] gmail [dot] com
 
@@ -11,8 +11,7 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Machine Learning Researcher</p>
-    <p>[AITRICS](https://aitrics.com/en/)</p>
-    # <a href="https://aitrics.com/en">AITRICS</a>
+    at <a href="https://aitrics.com/en">AITRICS</a>
     
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -29,13 +28,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a machine learning researcher at [AITRICS](https://aitrics.com/en), a healthcare startup in South Korea, where I get supervised by [Prof. Eunho Yang](https://mli.kaist.ac.kr/people/). I also work closely with [Prof. Juho Lee](https://juho-lee.github.io/).
+I am a machine learning researcher at [AITRICS](https://aitrics.com/en), a healthcare AI startup in South Korea, advised by [Prof. Eunho Yang](https://mli.kaist.ac.kr/people/) and collaborating closely with [Prof. Juho Lee](https://juho-lee.github.io/).
 
-Before joining [AITRICS](https://aitrics.com/en), I have worked in [Korea Electronics Technology Institute (KETI)](https://www.keti.re.kr/eng/main/main.php), RCV Lab at [KAIST](https://www.kaist.ac.kr/en/) under supervision of [Prof. In So Kweon](http://rcv.kaist.ac.kr/) as a researcher. I also had a great time working at the [National Cancer Center](https://www.ncc.re.kr/indexEn.ncc) in South Korea.
+My research focuses on inductive bias and symmetry-aware learning: how to design learning systems that generalize reliably by encoding principled regularities (e.g., geometry, acquisition processes, and temporal structure). I have worked on geometric priors [[1](https://openreview.net/forum?id=TuQW7VPfXF)], acquisition-informed priors[[2](https://arxiv.org/pdf/2402.10595),[3](https://arxiv.org/abs/2209.05771)], and temporal inductive biases[[4](https://arxiv.org/pdf/2305.02504), [5](https://arxiv.org/pdf/2210.16598)].
 
-I have worked on geometric prior [[1](https://openreview.net/forum?id=TuQW7VPfXF)], acquisition-informed priors[[2](https://arxiv.org/pdf/2402.10595),[3](https://arxiv.org/abs/2209.05771)], temporal inductive biases[[4](https://arxiv.org/pdf/2305.02504), [5](https://arxiv.org/pdf/2210.16598)].
+Previously, I worked as a researcher at the [Korea Electronics Technology Institute (KETI)](https://www.keti.re.kr/eng/main/main.php) and in the RCV Lab at [KAIST](https://www.kaist.ac.kr/en/) with [Prof. In So Kweon](http://rcv.kaist.ac.kr/). I also collaborated with clinicians and researchers at the [National Cancer Center](https://www.ncc.re.kr/indexEn.ncc).
 
-Currently, I am working (or will work) on invariance–equivariance interference, empirical (infinitesimal) equivariance, and plausibility priors. In the end, I aim to build trustworthy learning system that robustly respect principled regularity constraints.
+I am currently investigating invariance–equivariance interference, empirical (infinitesimal) equivariance, and plausibility priors, with the goal of building trustworthy learning systems that robustly satisfy principled regularity constraints—especially in settings where distribution shift and underspecification are common.
+
 
 <!-- 
 layout: page
