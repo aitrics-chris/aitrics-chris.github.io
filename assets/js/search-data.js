@@ -9,19 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-cv",
-          title: "CV",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
-        },{id: "nav-publication",
+  },{id: "nav-publication",
           title: "Publication",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "You can download my CV here",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
           },
         },{id: "post-a-post-with-plotly-js",
         
@@ -391,12 +391,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-icassp2024",
-          title: 'Icassp2024',
+            },},{id: "news-one-paper-compact-and-de-biased-negative-instance-embedding-for-multi-instance-learning-on-whole-slide-image-classification-was-accepted-by-icassp-2024",
+          title: 'One paper Compact and De-Biased Negative Instance Embedding for Multi-Instance Learning on Whole-Slide...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/icassp2024/";
-            },},{id: "news-one-paper-soft-equivariance-regularization-for-invariant-self-supervised-learning-was-accepted-by-iclr-2026",
+          section: "News",},{id: "news-one-paper-soft-equivariance-regularization-for-invariant-self-supervised-learning-was-accepted-by-iclr-2026",
           title: 'One paper Soft Equivariance Regularization for Invariant Self-Supervised Learning was accepted by ICLR...',
           description: "",
           section: "News",},{id: "projects-project-1",
