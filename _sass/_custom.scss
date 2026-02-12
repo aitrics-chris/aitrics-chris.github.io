@@ -1,64 +1,41 @@
 /* =========================
-   About: profile social icons
+   About page: profile sizing tweaks
    ========================= */
-   .social-profile .contact-icons {
-    font-size: 1.2rem;  /* icon glyph size */
-    line-height: 1;
-  }
-  
-  .social-profile .contact-icons a {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-  
-    /* shrink the gray "button" boxes */
-    width: 2.0rem;
-    height: 2.0rem;
-    padding: 0;
-    margin: 0 0.18rem;
-  
-    /* keep the al-folio look but tighter */
-    border-radius: 0.25rem;
-  }
-  
-  /* If any social icon is rendered as an <img> (your broken icon case),
-     this ensures it scales like the others. */
-  .social-profile .contact-icons img,
-  .social-profile .contact-icons svg,
-  .social-profile .contact-icons i {
-    width: 1em;
-    height: 1em;
-  }
-  
 
-  /* =========================
-   About: profile photo sizing
-   ========================= */
+/* Keep profile column compact without breaking responsive layout */
 .profile {
-  width: 240px;     /* fixed column width like Kelly’s */
-  max-width: 32%;   /* don’t let it get huge on wide screens */
-}
-
-.profile img {
   max-width: 240px;
 }
 
-/* Mobile: keep it nice */
+/* Profile photo: render at 80% of the available profile column width */
+.profile figure img {
+  width: 80%;
+  max-width: 80%;
+  height: auto;
+}
+
+/* Logos/icons below the photo: render at 50% of default social icon sizing */
+.profile .social .contact-icons {
+  font-size: 2rem;
+}
+
+.profile .social .contact-icons a img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.profile .social .contact-icons a svg {
+  width: 1.75rem;
+  height: 2rem;
+}
+
+.profile .social .contact-icons a svg image {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
 @media (max-width: 576px) {
   .profile {
-    width: 100%;
     max-width: 100%;
-  }
-
-  /* override Bootstrap float-right/left on small screens */
-  .profile.float-right,
-  .profile.float-left {
-    float: none !important;
-    margin: 0 auto 1rem auto;
-    text-align: center;
-  }
-
-  .profile img {
-    max-width: 220px;
   }
 }

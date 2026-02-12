@@ -4,10 +4,11 @@
 cv_pdf: /assets/pdf/CV_JoohyungLee.pdf
 # email: joohyunglee.research@gmail.com
 github_username: aitrics-chris
+scholar_userid: Yb4f6vUAAAAJ
 rss_icon: false
 
-scholar:
-  # logo: https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.6/svg/google-scholar-square.svg
-  logo: https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.6/svg/google-scholar.svg
-  title: Google Scholar
-  url: https://scholar.google.com/citations?user=Yb4f6vUAAAAJ&hl=ko&oi=sra
+# scholar:
+#   # logo: https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.6/svg/google-scholar-square.svg
+#   logo: https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.6/svg/google-scholar.svg
+#   title: Google Scholar
+#   url: https://scholar.google.com/citations?user=Yb4f6vUAAAAJ&hl=ko&oi=sra
