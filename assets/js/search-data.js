@@ -391,11 +391,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-icassp2024",
-          title: 'Icassp2024',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/icassp2024/";
             },},{id: "news-one-paper-soft-equivariance-regularization-for-invariant-self-supervised-learning-was-accepted-by-iclr-2026",
           title: 'One paper Soft Equivariance Regularization for Invariant Self-Supervised Learning was accepted by ICLR...',
           description: "",
