@@ -391,10 +391,12 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-one-paper-compact-and-de-biased-negative-instance-embedding-for-multi-instance-learning-on-whole-slide-image-classification-was-accepted-by-icassp-2024",
-          title: 'One paper Compact and De-Biased Negative Instance Embedding for Multi-Instance Learning on Whole-Slide...',
+            },},{id: "news-icassp2024",
+          title: 'Icassp2024',
           description: "",
-          section: "News",},{id: "news-one-paper-soft-equivariance-regularization-for-invariant-self-supervised-learning-was-accepted-by-iclr-2026",
+          section: "News",handler: () => {
+              window.location.href = "/news/icassp2024/";
+            },},{id: "news-one-paper-soft-equivariance-regularization-for-invariant-self-supervised-learning-was-accepted-by-iclr-2026",
           title: 'One paper Soft Equivariance Regularization for Invariant Self-Supervised Learning was accepted by ICLR...',
           description: "",
           section: "News",},{id: "projects-project-1",
@@ -458,13 +460,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("/assets/pdf/CV_JoohyungLee.pdf", "_blank");
-        },
-      },{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%6A%6F%6F%68%79%75%6E%67%6C%65%65.%72%65%73%65%61%72%63%68@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-github',
