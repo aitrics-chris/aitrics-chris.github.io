@@ -464,18 +464,18 @@ ninja.data = [{
           window.open("https://github.com/aitrics-chris", "_blank");
         },
       },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=Yb4f6vUAAAAJ", "_blank");
+        },
+      },{
         id: 'social-rss',
         title: 'RSS Feed',
         section: 'Socials',
         handler: () => {
           window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=Yb4f6vUAAAAJ&hl=ko&oi=sra", "_blank");
         },
       },{
       id: 'light-theme',
