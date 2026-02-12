@@ -1,27 +1,32 @@
-/* Make the profile headshot 80% of the default size */
+/* =========================
+   About page: profile sizing tweaks
+   ========================= */
+
+/* Keep profile column compact without breaking responsive layout */
+.profile {
+  max-width: 240px;
+}
+
+/* Profile photo: render at 80% of the available profile column width */
 .profile figure img {
+  width: 80%;
   max-width: 80%;
   height: auto;
 }
 
-/* Make social logos below the photo 50% of the default size */
+/* Logos/icons below the photo: render at 50% of the default 4rem size */
 .profile .contact-icons {
   font-size: 2rem;
 }
 
-.profile .contact-icons a img {
-  width: 1.6rem;
-  height: 1.6rem;
-  margin-bottom: 0.5rem;
+/* Ensure image-based icons shrink with font icons */
+.profile .contact-icons img {
+  height: 1em;
+  width: auto;
 }
 
-.profile .contact-icons a svg {
-  width: 1.75rem;
-  height: 2rem;
-  margin-bottom: 0.25rem;
-}
-
-.profile .contact-icons a svg image {
-  width: 1.75rem;
-  height: 1.75rem;
+@media (max-width: 576px) {
+  .profile {
+    max-width: 100%;
+  }
 }
