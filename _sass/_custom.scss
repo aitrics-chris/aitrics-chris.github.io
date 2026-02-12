@@ -1,0 +1,51 @@
+/* =========================
+   About page: profile socials
+   ========================= */
+
+/* Make the icon row smaller and cleaner */
+.profile .contact-icons {
+    font-size: 1.6rem;          /* <-- shrink icons (tune 1.4–1.8rem) */
+    line-height: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem 0.8rem;
+    justify-content: center;    /* use flex-start if you prefer left-aligned */
+    align-items: center;
+  }
+  
+  /* Ensure custom image icons (e.g., Scholar SVG) scale like font icons */
+  .profile .contact-icons img {
+    height: 1em;
+    width: auto;
+    vertical-align: -0.1em;
+  }
+  
+  /* Optional: slightly reduce the email line under icons */
+  .profile .contact-note {
+    font-size: 0.95rem;
+    margin-top: 0.4rem;
+  }
+  
+
+
+  /* Shrink the whole right-floated profile block (reduces the reserved column width) */
+.profile {
+    max-width: 240px;          /* <-- tune: 220–280px */
+  }
+  
+  /* Shrink the headshot itself */
+  .profile figure img {
+    max-width: 200px;          /* <-- tune: 170–220px */
+    height: auto;
+  }
+  
+  /* On small screens, let it expand normally */
+  @media (max-width: 576px) {
+    .profile {
+      max-width: 100%;
+    }
+    .profile figure img {
+      max-width: 220px;
+    }
+  }
+  
