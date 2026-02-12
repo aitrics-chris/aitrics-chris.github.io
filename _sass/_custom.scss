@@ -2,15 +2,35 @@
    About page: profile socials
    ========================= */
 
-/* Make the icon row smaller and cleaner */
-.profile .contact-icons {
-    font-size: 1.6rem;          /* <-- shrink icons (tune 1.4–1.8rem) */
+/* Shrink the whole right-floated profile block (reduces reserved width) */
+.profile {
+    max-width: 204px;          /* 240px * 0.85 */
+    margin-left: 1rem;         /* reduce the gap between text and profile */
+  }
+  
+  /* Shrink the headshot itself */
+  .profile figure img {
+    max-width: 170px;          /* 200px * 0.85 */
+    height: auto;
+  }
+  
+  /* Make the icon row ~50% smaller and left-aligned */
+  .profile .contact-icons {
+    font-size: 0.8rem;         /* 1.6rem * 0.5 */
     line-height: 1;
     display: flex;
     flex-wrap: wrap;
-    gap: 0.6rem 0.8rem;
-    justify-content: center;    /* use flex-start if you prefer left-aligned */
+    gap: 0.35rem 0.45rem;
+    justify-content: flex-start;  /* was center → this removes the "blank left" */
     align-items: center;
+    margin-top: 0.4rem;
+  }
+  
+  /* Ensure anchor boxes don't add extra visual bulk */
+  .profile .contact-icons a {
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
   }
   
   /* Ensure custom image icons (e.g., Scholar SVG) scale like font icons */
@@ -20,32 +40,23 @@
     vertical-align: -0.1em;
   }
   
-  /* Optional: slightly reduce the email line under icons */
+  /* Slightly reduce the email line under icons */
   .profile .contact-note {
-    font-size: 0.95rem;
-    margin-top: 0.4rem;
-  }
-  
-
-
-  /* Shrink the whole right-floated profile block (reduces the reserved column width) */
-.profile {
-    max-width: 240px;          /* <-- tune: 220–280px */
-  }
-  
-  /* Shrink the headshot itself */
-  .profile figure img {
-    max-width: 200px;          /* <-- tune: 170–220px */
-    height: auto;
+    font-size: 0.9rem;
+    margin-top: 0.35rem;
   }
   
   /* On small screens, let it expand normally */
   @media (max-width: 576px) {
     .profile {
       max-width: 100%;
+      margin-left: 0;
     }
     .profile figure img {
       max-width: 220px;
+    }
+    .profile .contact-icons {
+      justify-content: center; /* nicer on narrow screens */
     }
   }
   
