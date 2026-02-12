@@ -34,7 +34,7 @@ My research focuses on inductive bias and symmetry-aware learning: how to design
 
 Previously, I worked as a researcher at the [Korea Electronics Technology Institute (KETI)](https://www.keti.re.kr/eng/main/main.php) and in the RCV Lab at [KAIST](https://www.kaist.ac.kr/en/) with [Prof. In So Kweon](http://rcv.kaist.ac.kr/). I also collaborated with clinicians and researchers at the [National Cancer Center](https://www.ncc.re.kr/indexEn.ncc).
 
-I am currently investigating invariance–equivariance interference. During my PhD, I aim to move beyond hand-specified groups and geometry—toward learned symmetries and semantic/physical plausibility constraints. ([Research Statement (PDF)]({{ '/assets/pdf/Research Summary_JoohyungLee.pdf' | relative_url }}))
+I am currently investigating invariance–equivariance interference. During my PhD, I aim to move beyond hand-specified groups and geometry—toward learned symmetries and semantic/physical plausibility constraints. ([Research Statement (PDF)]({{ '/assets/pdf/Research_Statement.pdf' | relative_url }}))
 
 
 
