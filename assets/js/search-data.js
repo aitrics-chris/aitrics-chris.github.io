@@ -457,11 +457,25 @@ ninja.data = [{
           window.open("/assets/pdf/CV_JoohyungLee.pdf", "_blank");
         },
       },{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%6A%6F%6F%68%79%75%6E%67%6C%65%65.%72%65%73%65%61%72%63%68@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/aitrics-chris", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/joohyung-lee-6b767b70", "_blank");
         },
       },{
         id: 'social-scholar',
