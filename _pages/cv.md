@@ -12,7 +12,8 @@ toc:
   sidebar: left
 ---
 
-This page is currently being updated. In the meantime, please click the PDF icon to view my full CV.
+<!-- This page is currently being updated. In the meantime, please click the PDF icon to view my full CV. -->
+A polished version of this page is currently under construction. In the meantime, please click the PDF icon to view my CV.
 
 <!-- ---
 layout: page
