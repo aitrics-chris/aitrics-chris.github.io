@@ -44,3 +44,20 @@
     max-width: 100%;
   }
 }
+
+
+/* Center the profile "more_info" text under the photo */
+.profile .more-info {
+  width: 100%;
+  text-align: center;
+}
+
+/* Remove default paragraph margins so it looks tight and intentional */
+.profile .more-info p {
+  margin: 0;
+}
+
+/* Keep "at AITRICS" on the same line */
+.profile .more-info .profile-affil {
+  white-space: nowrap;
+}
