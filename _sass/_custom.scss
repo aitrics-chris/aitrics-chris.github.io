@@ -4,14 +4,18 @@
 
 /* Keep profile column compact without breaking responsive layout */
 .profile {
-  max-width: 240px;
+  max-width: 288px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Profile photo: render at 80% of the available profile column width */
-.profile figure img {
-  width: 80%;
-  max-width: 80%;
-  height: auto;
+.profile figure {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
 }
 
 /* Logos/icons below the photo: render at 50% of default social icon sizing */
