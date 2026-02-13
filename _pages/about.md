@@ -4,14 +4,23 @@ title: About
 permalink: /
 subtitle: <b>Contact:</b> joohyunglee [dot] research [at] gmail [dot] com
 
+# profile:
+#   align: right
+#   image: prof_pic.jpg
+#   # image_random: true
+#   image_circular: true # crops the image to make it circular
+#   more_info: >
+#     <p>Machine Learning Researcher at</p>
+#     <p><a href="https://aitrics.com/en">AITRICS</a></p>
+
 profile:
   align: right
   image: prof_pic.jpg
-  # image_random: true
-  image_circular: true # crops the image to make it circular
+  image_circular: true
   more_info: >
-    <p>Machine Learning Researcher at</p>
-    <p><a href="https://aitrics.com/en">AITRICS</a></p>
+    <p class="profile-role">Machine Learning Researcher</p>
+    <p class="profile-affil">at <a href="https://aitrics.com/en">AITRICS</a></p>
+
 
     
 
