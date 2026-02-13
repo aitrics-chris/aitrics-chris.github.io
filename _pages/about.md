@@ -11,7 +11,8 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Machine Learning Researcher at</p>
-    <a href="https://aitrics.com/en">AITRICS</a>
+    <p><a href="https://aitrics.com/en">AITRICS</a></p>
+
     
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
