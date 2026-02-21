@@ -6,6 +6,4 @@ related_posts: false
 display: true
 ---
 
-Two anonymized workshop submissions are under review (**ICLR 2026 workshop track**).
-
-
+Two submissions to an **ICLR 2026 workshop** are under review (titles withheld).
