@@ -10,7 +10,7 @@
             {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
           {%- endif -%}
           <abbr
-            class="badge rounded w-100"
+            class="badge"
             {% if venue_style %}
               {{ venue_style }}
             {% endif -%}
@@ -22,11 +22,11 @@
             {% endif %}
           </abbr>
         {% else %}
-          <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
+          <abbr class="badge">{{ entry.abbr }}</abbr>
         {% endif %}
       {% endif %}
       {%- if entry.wksp -%}
-        <wksp class="badge rounded w-100">{{ entry.wksp }}</wksp>
+        <wksp class="badge">{{ entry.wksp }}</wksp>
       {% endif %}
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
