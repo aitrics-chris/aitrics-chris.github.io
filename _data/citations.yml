@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-02-23'
+  last_updated: '2026-03-16'
 papers:
   Yb4f6vUAAAAJ:2osOgNQ5qMEC:
-    citations: 14
+    citations: 15
     title: 'Moving from 2d to 3d: volumetric medical image classification for rectal cancer staging'
     year: '2022'
   Yb4f6vUAAAAJ:9yKSN-GCB0IC:
@@ -10,19 +10,27 @@ papers:
     title: Self-supervised pre-training improves fundus image classification for diabetic retinopathy
     year: '2022'
   Yb4f6vUAAAAJ:IjCSPb-OGe4C:
-    citations: 7
+    citations: 8
     title: Self-supervised predictive coding with multimodal fusion for patient deterioration prediction in fine-grained time resolution
     year: '2023'
+  Yb4f6vUAAAAJ:LkGwnXOMwfcC:
+    citations: 0
+    title: 'Structure-Aware Set Transformers: Temporal and Variable-type Attention Biases for Asynchronouse Clinical Time Series'
+    year: '2026'
   Yb4f6vUAAAAJ:Tyk-4Ss8FVUC:
     citations: 0
     title: Soft Equivariance Regularization for Invariant Self-Supervised Learning
     year: '2026'
   Yb4f6vUAAAAJ:UeHWp8X0CEIC:
-    citations: 33
+    citations: 38
     title: Learning missing modal electronic health records with unified multi-modal data embedding and modality-aware attention
     year: '2023'
+  Yb4f6vUAAAAJ:_FxGoFyzp5QC:
+    citations: 0
+    title: Status-Aware Self-Supervised Forecasting for Irregular Clinical Time Series
+    year: '2026'
   Yb4f6vUAAAAJ:d1gkVwhDpl0C:
-    citations: 66
+    citations: 67
     title: Tumor identification in colorectal histology images using a convolutional neural network
     year: '2019'
   Yb4f6vUAAAAJ:qjMakFHDy7sC:
@@ -34,7 +42,7 @@ papers:
     title: Objective Detection of Oral Carcinoma with Multispectral Fluorescence Lifetime Imaging In Vivo
     year: '2016'
   Yb4f6vUAAAAJ:u5HHmVD_uO8C:
-    citations: 24
+    citations: 25
     title: Reducing the model variance of a rectal cancer segmentation network
     year: '2019'
   Yb4f6vUAAAAJ:zYLM7Y9cAGgC:
