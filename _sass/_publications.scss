@@ -75,7 +75,6 @@
           }
         }
 
-        
         .award {
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
@@ -133,6 +132,17 @@
         }
       }
 
+      .publication-figure {
+        width: min(100%, var(--publication-figure-width, 380px));
+        margin-top: 0.5rem;
+
+        img {
+          width: 100%;
+          height: auto;
+          display: block;
+        }
+      }
+      
       .badges {
         padding-bottom: 0.5rem;
         span {

@@ -1013,6 +1013,22 @@ To add a thumbnail to a publication, include a `preview` field in your BibTeX en
 
 Place the image file in `assets/img/publication_preview/`.
 
+To add a per-publication figure below the venue/date line, use the `figure` field:
+
+```bibtex
+@inproceedings{example2025,
+  title={Example Conference Paper},
+  author={Author, First and Author, Second},
+  booktitle={ExampleConf},
+  year={2025},
+  figure={example_figure.png}
+}
+```
+
+Place the image in `assets/img/publication_figure/`.
+You can also use a full URL in `figure={https://...}`.
+All publication figures are rendered with the same width for visual consistency; you can tune this width by overriding the CSS variable `--publication-figure-width`.
+
 ## Adding a Google Calendar
 
 You can embed a Google Calendar on any page by using the `calendar.liquid` include.

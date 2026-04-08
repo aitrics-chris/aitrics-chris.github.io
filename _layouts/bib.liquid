@@ -5,11 +5,11 @@
     <div class="col col-sm-2 abbr">
       {%- if entry.abbr -%}
         {%- if site.data.venues[entry.abbr] -%}
-            {% if site.data.venues[entry.abbr].url %}
-              <a href="{{ site.data.venues[entry.abbr].url }}">{{ entry.abbr }}</a>
-            {% else %}
-              {{- entry.abbr -}}
-            {% endif %}
+          {% if site.data.venues[entry.abbr].url %}
+            <a href="{{ site.data.venues[entry.abbr].url }}">{{ entry.abbr }}</a>
+          {% else %}
+            {{- entry.abbr -}}
+          {% endif %}
           </abbr>
         {% else %}
           <abbr class="badge">{{ entry.abbr }}</abbr>
@@ -179,7 +179,30 @@
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
-
+    {% if entry.figure %}
+      <div class="publication-figure">
+        {% if entry.figure contains '://' %}
+          <img
+            class="z-depth-1 rounded"
+            src="{{ entry.figure }}"
+            alt="Figure for {{ entry.title | escape }}"
+          >
+        {% else %}
+          {% assign figure_path = entry.figure | prepend: '/assets/img/publication_figure/' %}
+          {%
+            include figure.liquid
+            loading="lazy"
+            path=figure_path
+            sizes="600px"
+            class="z-depth-1 rounded"
+            zoomable=true
+            avoid_scaling=true
+            alt=entry.figure
+          %}
+        {% endif %}
+      </div>
+    {% endif %}
+    
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.award %}
