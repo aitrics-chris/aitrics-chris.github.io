@@ -62,7 +62,7 @@ Here we will give you some tips on how to customize the website. One important t
     - [How it works](#how-it-works)
     - [Configuration](#configuration-1)
     - [Disable related posts for a specific post](#disable-related-posts-for-a-specific-post)
-    - [Additional configuration in _config.yml](#additional-configuration-in-_configyml)
+    - [Additional configuration in \_config.yml](#additional-configuration-in-_configyml)
   - [Managing publication display](#managing-publication-display)
   - [Adding a Google Calendar](#adding-a-google-calendar)
     - [Basic usage](#basic-usage)
@@ -1012,22 +1012,8 @@ To add a thumbnail to a publication, include a `preview` field in your BibTeX en
 ```
 
 Place the image file in `assets/img/publication_preview/`.
-
-To add a per-publication figure below the venue/date line, use the `figure` field:
-
-```bibtex
-@inproceedings{example2025,
-  title={Example Conference Paper},
-  author={Author, First and Author, Second},
-  booktitle={ExampleConf},
-  year={2025},
-  figure={example_figure.png}
-}
-```
-
-Place the image in `assets/img/publication_figure/`.
-You can also use a full URL in `figure={https://...}`.
-All publication figures are rendered with the same width for visual consistency; you can tune this width by overriding the CSS variable `--publication-figure-width`.
+With `enable_publication_thumbnails: true`, this preview is shown in the left column directly under the venue badges (e.g., `ICLR` / `Workshop`), i.e., left of the paper description.
+To keep preview widths synchronized across publications, you can override `--publication-preview-width` (for example, `200px`).
 
 ## Adding a Google Calendar
 
