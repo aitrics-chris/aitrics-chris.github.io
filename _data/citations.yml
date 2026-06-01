@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-15'
+  last_updated: '2026-06-01'
 papers:
   Yb4f6vUAAAAJ:2osOgNQ5qMEC:
     citations: 16
@@ -22,7 +22,7 @@ papers:
     title: Soft Equivariance Regularization for Invariant Self-Supervised Learning
     year: '2026'
   Yb4f6vUAAAAJ:UeHWp8X0CEIC:
-    citations: 43
+    citations: 44
     title: Learning missing modal electronic health records with unified multi-modal data embedding and modality-aware attention
     year: '2023'
   Yb4f6vUAAAAJ:_FxGoFyzp5QC:
@@ -30,7 +30,7 @@ papers:
     title: Status-Aware Self-Supervised Forecasting for Irregular Clinical Time Series
     year: '2026'
   Yb4f6vUAAAAJ:d1gkVwhDpl0C:
-    citations: 68
+    citations: 69
     title: Tumor identification in colorectal histology images using a convolutional neural network
     year: '2019'
   Yb4f6vUAAAAJ:qjMakFHDy7sC:
@@ -38,7 +38,7 @@ papers:
     title: Magnetic resonance-based texture analysis differentiating KRAS mutation status in rectal cancer
     year: '2020'
   Yb4f6vUAAAAJ:roLk4NBRz8UC:
-    citations: 3
+    citations: 4
     title: Compact and De-Biased Negative Instance Embedding for Multi-Instance Learning on Whole-Slide Image Classification
     year: '2024'
   Yb4f6vUAAAAJ:u-x6o8ySG0sC:
@@ -46,10 +46,10 @@ papers:
     title: Objective Detection of Oral Carcinoma with Multispectral Fluorescence Lifetime Imaging In Vivo
     year: '2016'
   Yb4f6vUAAAAJ:u5HHmVD_uO8C:
-    citations: 25
+    citations: 26
     title: Reducing the model variance of a rectal cancer segmentation network
     year: '2019'
   Yb4f6vUAAAAJ:zYLM7Y9cAGgC:
-    citations: 120
+    citations: 121
     title: "Guideline Committee for the Korean Society of Thyroid Radiology (KSThR) and Korean Society of Radiology. 2017 thyroid radiofrequency ablation guideline: Korean society of \u2026"
     year: '2018'
