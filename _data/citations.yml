@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-01'
+  last_updated: '2026-06-10'
 papers:
   Yb4f6vUAAAAJ:2osOgNQ5qMEC:
     citations: 16
@@ -22,7 +22,7 @@ papers:
     title: Soft Equivariance Regularization for Invariant Self-Supervised Learning
     year: '2026'
   Yb4f6vUAAAAJ:UeHWp8X0CEIC:
-    citations: 44
+    citations: 46
     title: Learning missing modal electronic health records with unified multi-modal data embedding and modality-aware attention
     year: '2023'
   Yb4f6vUAAAAJ:_FxGoFyzp5QC:
