@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-10'
+  last_updated: '2026-06-17'
 papers:
   Yb4f6vUAAAAJ:2osOgNQ5qMEC:
     citations: 16
@@ -50,6 +50,6 @@ papers:
     title: Reducing the model variance of a rectal cancer segmentation network
     year: '2019'
   Yb4f6vUAAAAJ:zYLM7Y9cAGgC:
-    citations: 121
+    citations: 122
     title: "Guideline Committee for the Korean Society of Thyroid Radiology (KSThR) and Korean Society of Radiology. 2017 thyroid radiofrequency ablation guideline: Korean society of \u2026"
     year: '2018'
