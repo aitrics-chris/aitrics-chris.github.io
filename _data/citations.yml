@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-17'
+  last_updated: '2026-06-29'
 papers:
   Yb4f6vUAAAAJ:2osOgNQ5qMEC:
     citations: 16
@@ -42,7 +42,7 @@ papers:
     title: Compact and De-Biased Negative Instance Embedding for Multi-Instance Learning on Whole-Slide Image Classification
     year: '2024'
   Yb4f6vUAAAAJ:u-x6o8ySG0sC:
-    citations: 18
+    citations: 19
     title: Objective Detection of Oral Carcinoma with Multispectral Fluorescence Lifetime Imaging In Vivo
     year: '2016'
   Yb4f6vUAAAAJ:u5HHmVD_uO8C:
@@ -50,6 +50,6 @@ papers:
     title: Reducing the model variance of a rectal cancer segmentation network
     year: '2019'
   Yb4f6vUAAAAJ:zYLM7Y9cAGgC:
-    citations: 122
+    citations: 123
     title: "Guideline Committee for the Korean Society of Thyroid Radiology (KSThR) and Korean Society of Radiology. 2017 thyroid radiofrequency ablation guideline: Korean society of \u2026"
     year: '2018'
