@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-26'
+  last_updated: '2026-08-28'
 papers:
   Yb4f6vUAAAAJ:2osOgNQ5qMEC:
     citations: 16
@@ -30,7 +30,7 @@ papers:
     title: Status-Aware Self-Supervised Forecasting for Irregular Clinical Time Series
     year: '2026'
   Yb4f6vUAAAAJ:d1gkVwhDpl0C:
-    citations: 69
+    citations: 70
     title: Tumor identification in colorectal histology images using a convolutional neural network
     year: '2019'
   Yb4f6vUAAAAJ:qjMakFHDy7sC:
