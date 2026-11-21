@@ -12,4 +12,4 @@ toc:
   sidebar: left
 ---
 
-A polished version of this page is currently under construction. In the meantime, please click the PDF icon to view my CV.
+[Download my academic CV (PDF)]({{ page.cv_pdf | relative_url }}).
