@@ -21,9 +21,6 @@ profile:
     <p class="profile-role">Machine Learning Researcher</p>
     <p class="profile-affil">at <a href="https://aitrics.com/en">AITRICS</a></p>
 
-
-    
-
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
@@ -38,7 +35,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a machine learning researcher at [AITRICS](https://aitrics.com/en), a healthcare AI startup in South Korea, advised by [Prof. Eunho Yang](https://mli.kaist.ac.kr/people/). I collaborate with [Prof. Juho Lee](https://juho-lee.github.io/) at KAIST and [Prof. Mengye Ren](https://mengyeren.com/) at NYU.
+I am a machine learning researcher at [AITRICS](https://aitrics.com/en), a healthcare AI startup in South Korea, advised by [Prof. Eunho Yang](https://mli.kaist.ac.kr/people/) and collaborating closely with [Prof. Juho Lee](https://juho-lee.github.io/).
 
 My research is on representation learning from images, video and time series. I ask what a model's features should preserve, and what evidence a model uses when it predicts what happens next. I have worked on equivariance in self-supervised vision [[1](https://openreview.net/forum?id=TuQW7VPfXF)], on separating disease signal from acquisition variation in medical images [[2](https://arxiv.org/pdf/2402.10595), [3](https://arxiv.org/abs/2209.05771)], and on forecasting from irregular, multimodal clinical records [[4](https://arxiv.org/pdf/2305.02504), [5](https://arxiv.org/pdf/2210.16598)].
 
